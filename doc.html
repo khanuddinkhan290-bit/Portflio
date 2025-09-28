@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <title>KAMAL UD DIN</title>
+  <meta name="description" content="kamal ud din Portflio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa4b2; --accent:#7c5cff; --glass: rgba(255,255,255,0.04);
+      --radius:16px; --maxW:1200px;
+      --ease:cubic-bezier(.2,.9,.3,1);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;font-family:Inter,system-ui,Segoe UI,Helvetica,Arial;
+      background:linear-gradient(180deg,#05060a 0%, #081124 60%);color:#e6eef8;
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+      line-height:1.4;
+    }
+    .container{max-width:var(--maxW);margin:0 auto;padding:40px 24px}
+
+    /* NAV */
+    header{position:fixed;left:0;right:0;top:18px;z-index:60}
+    nav{backdrop-filter: blur(6px); background:linear-gradient(180deg, rgba(11,16,27,0.35), rgba(11,16,27,0.15)); border-radius:14px; padding:10px 14px; max-width:var(--maxW); margin:0 auto}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .logo{display:flex;align-items:center;gap:10px;font-weight:700}
+    .logo .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 6px 18px rgba(124,92,255,0.18)}
+    .menu{display:flex;gap:18px;align-items:center}
+    .menu a{color:var(--muted);text-decoration:none;padding:8px;border-radius:8px;transition:all .25s var(--ease)}
+    .menu a:hover{color:#fff;transform:translateY(-3px)}
+    .cta{background:linear-gradient(90deg,var(--accent),#00d4ff);padding:8px 14px;border-radius:10px;color:#02122a;font-weight:600}
+    .hamb{display:none}
+
+    /* HERO */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:36px;align-items:center;padding:90px 0 60px}
+    .hero h1{font-size:clamp(28px,5vw,52px);margin:0 0 12px}
+    .hero p{color:var(--muted);margin:0 0 18px}
+    .hero .buttons{display:flex;gap:12px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:18px;border-radius:16px;box-shadow: 0 6px 30px rgba(2,6,23,0.6);}
+
+    /* PROJECTS */
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .project{overflow:hidden;border-radius:12px;position:relative;min-height:170px}
+    .project img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s var(--ease)}
+    .project:hover img{transform:scale(1.06)}
+    .project .meta{position:absolute;left:12px;bottom:12px;background:var(--glass);padding:8px 10px;border-radius:10px}
+
+    /* ABOUT */
+    .about{display:flex;gap:24px;align-items:center}
+    .skills{display:flex;flex-wrap:wrap;gap:10px}
+    .skill{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:8px;color:var(--muted)}
+
+    /* TESTIMONIALS */
+    .carousel{position:relative;overflow:hidden}
+    .slides{display:flex;gap:18px;transition:transform .6s var(--ease)}
+    .slide{min-width:320px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px}
+
+    /* GALLERY */
+    .masonry{column-count:3;column-gap:12px}
+    .masonry .item{display:inline-block;width:100%;margin:0 0 12px;border-radius:10px;overflow:hidden}
+
+    /* CONTACT */
+    form{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    form .full{grid-column:1/-1}
+    input,textarea{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:12px;border-radius:10px;color:inherit}
+
+    /* FOOTER */
+    footer{color:var(--muted);padding:24px 0;text-align:center}
+
+    /* small screens */
+    @media (max-width:1000px){.hero{grid-template-columns:1fr 340px}.grid{grid-template-columns:repeat(2,1fr)}.masonry{column-count:2}}
+    @media (max-width:700px){.hero{grid-template-columns:1fr;gap:20px}.menu{display:none}.hamb{display:block}.grid{grid-template-columns:1fr}.masonry{column-count:1}form{grid-template-columns:1fr}}
+
+    /* subtle animations */
+    .fade{opacity:0;transform:translateY(22px);transition:opacity .6s var(--ease), transform .6s var(--ease)}
+    .inview{opacity:1;transform:none}
+
+    /* utilities */
+    .center{display:flex;align-items:center;justify-content:center}
+    .tag{font-size:12px;padding:4px 8px;border-radius:999px;background:rgba(255,255,255,0.02);color:var(--muted)}
+    .pill{display:inline-flex;gap:8px;align-items:center;padding:8px 12px;border-radius:999px;background:linear-gradient(90deg,#0b1220, rgba(255,255,255,0.02));}
+  </style> -->
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-inner container">
+        <div class="logo"><span class="dot"></span> <span style="letter-spacing:0.6px">kAMAL UD DIN</span></div>
+        <div class="menu" role="navigation" aria-label="Main Navigation">
+          <a href="#home">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#clients">Clients</a>
+          <a href="#works">Previous Works</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="center">
+          <a class="cta" href="#contact">Hire Me</a>
+          <button class="hamb" aria-label="Open menu" onclick="openMobile()">☰</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container" id="home" style="padding-top:120px">
+    <section class="hero">
+      <div>
+        <div class="tag">Freelance • Designer • Developer</div>
+        <h1 class="fade">I build delightful digital experiences — <span style="color:var(--accent)">Graphicc, brands &amp; UI</span></h1>
+        <p class="fade">Hi — I'm <strong>KAMAL UD DIN</strong>. I design high-converting Graphics, crisp app UI, and memorable brand identities. I love animations, Printable, Digital Graphics.</p>
+        <div class="buttons fade">
+          <a class="pill" href="#projects">Explore Projects →</a>
+          <a class="pill" href="#contact">Get a Quote</a>
+        </div>
+
+        <div style="display:flex;gap:12px;margin-top:20px" class="fade">
+          <div class="card" style="flex:1">
+            <div style="display:flex;align-items:center;gap:12px">
+              <div style="width:56px;height:56px;border-radius:10px;background:linear-gradient(180deg,var(--accent),#00d4ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:#02122a">A</div>
+              <div>
+                <div style="font-weight:700">Available for freelance</div>
+                <div style="color:var(--muted);font-size:13px">Open to projects, hourly or fixed-price</div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width:210px;text-align:center">
+            <div style="font-weight:800;font-size:18px">4.9</div>
+            <div style="color:var(--muted);font-size:13px">Client rating average</div>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card" style="height:420px;display:flex;flex-direction:column;gap:12px;align-items:flex-start;padding:18px;">
+          <div style="display:flex;gap:12px;align-items:center;width:100%">
+            <div style="flex:1">
+              <div style="font-weight:700">Featured project</div>
+              <div style="color:var(--muted);font-size:13px">Brand identity</div>
+            </div>
+            <div style="text-align:right">
+              <div style="font-weight:700">Role</div>
+              <div style="color:var(--muted);font-size:13px">UI/UX & Designer</div>
+            </div>
+          </div>
+          <div style="flex:1;width:100%;border-radius:12px;overflow:hidden;background:url('https://blog-frontend.envato.com/cdn-cgi/image/width=2400,quality=75,format=auto/uploads/sites/2/2023/02/Tuts_Roundup__Top_Graphic_Design_Courses.jpeg')center/cover no-repeat"></div>
+
+          <div style="display:flex;gap:8px;width:100%;justify-content:space-between">
+            <div class="tag">Photoshop</div>
+            <div class="tag">Illustrator</div>
+            <div class="tag">Canva</div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" style="padding:36px 0">
+      <h2 class="fade">Projects</h2>
+      <p class="fade" style="color:var(--muted)">Selected projects with clean UI, smooth animations and performance-first approach.</p>
+      <div class="grid" style="margin-top:18px">
+        <!-- Project cards -->
+        <div class="project card fade" tabindex="0" onclick="openProject(1)">
+          <img src="images/Brand identity.jpg" alt="Project 1">
+          <div class="meta">
+            <div style="font-weight:700">Brand - identity </div>
+            <div style="font-size:12px;color:var(--muted)">React • NextJS • Figma</div>
+          </div>
+        </div>
+        <div class="project card fade" onclick="openProject(2)">
+          <img src="images/poster design1.jpg" alt="Project 2">
+          <div class="meta">
+            <div style="font-weight:700">Digital — Posters</div>
+            <div style="font-size:12px;color:var(--muted)">Flutter • Branding</div>
+          </div>
+        </div>
+        <div class="project card fade" onclick="openProject(3)">
+          <img src="images/poster design2.jpg" alt="Project 3">
+          <div class="meta">
+            <div style="font-weight:700">Print — Design</div>
+            <div style="font-size:12px;color:var(--muted)">Design Systems • Data Viz</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" style="padding:36px 0">
+      <h2 class="fade">About</h2>
+      <div class="about" style="margin-top:18px">
+        <div style="flex:1">
+          <p class="fade">I'm a product-focused designer and frontend developer who loves turning ideas into polished products. I specialize in Graphics with attention to motion and accessibility.</p>
+
+          <h3 style="margin-top:12px">Skills</h3>
+          <div class="skills fade">
+            <div class="skill">UI/UX Design</div>
+            <div class="skill">Photoshop / Illustrator</div>
+            <div class="skill">Digital / Printable</div>
+            <div class="skill">ads Animation</div>
+            <div class="skill">Trand work</div>
+          </div>
+        </div>
+        <div style="width:320px">
+          <div class="card fade" style="padding:18px">
+            <h4 style="margin:0 0 8px">Contact</h4>
+            <div style="color:var(--muted);font-size:13px">Email: <a href="mailto:you@domain.com">you@domain.com</a></div>
+            <div style="color:var(--muted);font-size:13px">Location: Karachi, Pakistan</div>
+            <div style="margin-top:12px"><a class="pill" href="#contact">Send a message</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients / Testimonials -->
+    <section id="clients" style="padding:36px 0">
+      <h2 class="fade">What Clients Say</h2>
+      <div class="carousel" style="margin-top:18px">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+          <div style="color:var(--muted)">Trusted by startups & agencies</div>
+          <div style="display:flex;gap:8px">
+            <button onclick="slidePrev()">◀</button>
+            <button onclick="slideNext()">▶</button>
+          </div>
+        </div>
+        <div class="slides" id="slides">
+          <div class="slide card">
+            <div style="font-weight:700">“Transformed our conversion rates — brilliant work!”</div>
+            <div style="color:var(--muted);margin-top:8px">— Ali R., Founder</div>
+          </div>
+          <div class="slide card">
+            <div style="font-weight:700">“Fast, communicative and creative. Highly recommended.”</div>
+            <div style="color:var(--muted);margin-top:8px">— Sara K., Product Lead</div>
+          </div>
+          <div class="slide card">
+            <div style="font-weight:700">“Delivered ahead of schedule with excellent polish.”</div>
+            <div style="color:var(--muted);margin-top:8px">— Omar Z., CTO</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Previous Works / Gallery -->
+    <section id="works" style="padding:36px 0">
+      <h2 class="fade">Previous Works</h2>
+      <div class="masonry fade" style="margin-top:18px">
+        <div class="item"><img style="width:100%;display:block;" src="images/PosterDesign3.jpg" alt="work1"/></div>
+        <div class="item"><img style="width:100%;display:block;" src="images/typo2.jpg" alt="work2"/></div>
+        <div class="item"><img style="width:100%;display:block;" src="images/Typographylogo1.jpg" alt="work3"/></div>
+        <div class="item"><img style="width:100%;display:block;" src="images/poster design1.jpg" alt="work4"/></div>
+        <div class="item"><img style="width:100%;display:block;" src="images/Typographylogo1.jpg" alt="work3"/></div>
+        <div class="item"><img style="width:100%;display:block;" src="images/poster design1.jpg" alt="work4"/></div>
+               <div class="item"><img style="width:100%;display:block;" src="images/PosterDesign3.jpg" alt="work1"/></div>
+        <div class="item"><img style="width:100%;display:block;" src="images/typo2.jpg" alt="work2"/></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="padding:36px 0">
+      <h2 class="fade">Contact</h2>
+      <p class="fade" style="color:var(--muted)">Interested in working together? Send a quick message — I'll respond within 24 hours.</p>
+
+      <div style="margin-top:18px;display:grid;grid-template-columns:1fr 360px;gap:18px">
+        <div class="card fade">
+          <form action="https://formspree.io/f/yourFormID" id="contactForm">
+            <input name="name" placeholder="Your name" required />
+            <input name="email" placeholder="Your email" type="email" required />
+            <textarea name="message" rows="6" placeholder="Tell me about your project" class="full" required></textarea>
+            <button type="submit" class="pill full" style="justify-content:center">Send Message</button>
+            <div id="formMsg" style="color:var(--muted);font-size:13px;margin-top:8px"></div>
+          </form>
+        </div>
+        <div class="card fade">
+          <h4 style="margin:0 0 8px">Let's meet</h4>
+          <p style="color:var(--muted);font-size:13px">Prefer a call? Book a slot via Calendly or share a time — available weekdays 10:00–18:00 (PKT).</p>
+          <div style="margin-top:12px">
+            <div class="tag">Phone: +92 300 0000000</div>
+            <div class="tag" style="margin-left:8px">Email: you@domain.com</div>
+          </div>
+          <div style="margin-top:12px;color:var(--muted);font-size:13px">Follow me: Twitter • Dribbble • LinkedIn</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>&copy; <span id="year"></span> Your Name. All rights reserved.</div>
+        <div style="color:var(--muted);font-size:13px">Built with care — performance-minded & accessible.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project modal (simple) -->
+  <div id="modal" style="position:fixed;inset:0;background:rgba(2,6,23,0.7);display:none;align-items:center;justify-content:center;padding:20px;z-index:90">
+    <div style="background:var(--card);padding:18px;border-radius:12px;max-width:900px;width:100%;position:relative;">
+      <button onclick="closeModal()" style="position:absolute;right:12px;top:12px">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+<!-- 
+  <script>
+    // Populate footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Basic reveal on scroll
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('inview'); e.target.classList.remove('fade') } });
+    },{threshold:0.15});
+    document.querySelectorAll('.fade').forEach(el=>observer.observe(el));
+
+    // Projects modal data
+    const projects = {
+      1:{title:'Shoply — E‑commerce',desc:'Full e‑commerce experience with cart flows, micro-animations and checkout optimisations.',img:'https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1400&auto=format&fit=crop'},
+      2:{title:'DocuCare — Health App',desc:'A patient-focused app with quick appointment flows and accessible UI.',img:'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1400&auto=format&fit=crop'},
+      3:{title:'Dashlytics — Dashboard',desc:'Data-heavy dashboard with custom charts, responsive tables and design system.',img:'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1400&auto=format&fit=crop'}
+    }
+    function openProject(id){
+      const p = projects[id];
+      document.getElementById('modalContent').innerHTML = `<h2 style="margin-top:0">${p.title}</h2><p style="color:var(--muted)">${p.desc}</p><img src="${p.img}" style="width:100%;border-radius:8px;margin-top:12px"/>`;
+      document.getElementById('modal').style.display='flex';
+    }
+    function closeModal(){ document.getElementById('modal').style.display='none' }
+
+    // Simple testimonials carousel
+    const slides = document.getElementById('slides'); let idx=0;
+    function updateSlides(){ slides.style.transform = `translateX(${-idx*(340+18)}px)` }
+    function slideNext(){ idx = Math.min(idx+1, slides.children.length-1); updateSlides() }
+    function slidePrev(){ idx = Math.max(0, idx-1); updateSlides() }
+
+    // Contact form local handling (no backend) — uses mailto fallback
+    document.getElementById('contactForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const data = new FormData(e.target); const name = data.get('name'), email = data.get('email'), msg = data.get('message');
+      // Try to open mail client
+      const subject = encodeURIComponent('Project inquiry from ' + name);
+      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${msg}`);
+      const mailto = `mailto:you@domain.com?subject=${subject}&body=${body}`;
+      // best-effort: open mail client, then show message
+      window.location.href = mailto;
+      document.getElementById('formMsg').textContent = 'Opened your mail client. If nothing happened, copy & paste this text to email.';
+    });
+
+    // Mobile: simple overlay menu
+    function openMobile(){
+      const el = document.createElement('div'); el.style.position='fixed'; el.style.inset=0; el.style.background='rgba(2,6,23,0.85)'; el.style.zIndex=999; el.innerHTML = `
+        <div style="padding:30px;color:#fff"> <div style='display:flex;justify-content:space-between;align-items:center'><div style='font-weight:700;font-size:18px'>YourName</div><button onclick="this.parentElement.parentElement.remove()">✕</button></div>
+        <nav style='margin-top:20px;display:flex;flex-direction:column;gap:12px'>
+          <a href="#home" style='color:#fff;text-decoration:none' onclick="event.target.closest('div').remove()">Home</a>
+          <a href="#projects" style='color:#fff;text-decoration:none' onclick="event.target.closest('div').remove()">Projects</a>
+          <a href="#about" style='color:#fff;text-decoration:none' onclick="event.target.closest('div').remove()">About</a>
+          <a href="#clients" style='color:#fff;text-decoration:none' onclick="event.target.closest('div').remove()">Clients</a>
+          <a href="#works" style='color:#fff;text-decoration:none' onclick="event.target.closest('div').remove()">Works</a>
+          <a href="#contact" style='color:#fff;text-decoration:none' onclick="event.target.closest('div').remove()">Contact</a>
+        </nav></div>`;
+      document.body.appendChild(el);
+    }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',(e)=>{ e.preventDefault(); const id = a.getAttribute('href'); document.querySelector(id).scrollIntoView({behavior:'smooth'}); })
+    })
+
+    // keyboard accessibility for modal
+    document.addEventListener('keydown', (e)=>{ if(e.key==='Escape'){ closeModal() } });
+  </script> -->
+</body>
+</html>
